@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset = "utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>My Portfolio Page</title>
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet'>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+	<body>
+		<div class="container">
+			<header class="row">
+				<div class="col-md-6">
+					<img src="images/golden-gate.jpg" alt="golden gate" class="img-responsive title-logo">
+				</div>
+				<div class="col-md-6 text-right text-uppercase">
+					<h1 class="big-text thin-text">Swati Kamtar</h1>
+					<h4>Front-end Novice</h4>
+				</div>
+			</header>
+			<div class="row">
+				<div class="col-md-12">
+					<hr>
+				</div>
+			</div>
+			<main class="row text-center" role="main">
+				<article class="col-md-12">
+					<img src="images/crater_lake.jpg" alt="crater lake image" class="img-responsive">
+				</article>
+			</main>
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="mute-color">Featured Work</h2>
+				</div>
+			</div>
+			<article class="row text-center">
+				<section class="col-md-4">
+					<img src="images/digital-imagery.jpg" alt="photomontage" class="img-responsive center-block" data-toggle="modal" data-target="#work1">
+					<h3 class="text-uppercase">Photomontage</h3>
+					<a href="https://github.com/" target="blank">https://github.com/</a>
+				</section>
+				<section class="col-md-4">
+					<img src="images/website-screenshot.png" alt="website screenshot" class="img-responsive center-block" data-toggle="modal" data-target="#work2">
+					<h3 class="text-uppercase">my website</h3>
+					<a href="https://github.com/" target="blank">https://github.com/</a>
+				</section>
+				<section class="col-md-4">
+				<img src="images/website-screenshot2.png" alt="website 2 screenshot" class="img-responsive center-block" data-toggle="modal" data-target="#work3">
+					<h3 class="text-uppercase">My website - take 2</h3>
+					<a href="https://github.com/" target="blank">https://github.com/</a>
+				</section>
+			</article>
+		</div>
+				<!-- Modal for #work1 -->
+		<div class="modal fade" id="work1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 id="myModalLabel1">Photomontage</h4>
+					</div>
+					<div class="modal-body">
+						<img src="images/digital-imagery.jpg" alt="photomontage" class="img-responsive center-block">
+						<br>
+						<p>The image is a photomontage, which is a collage of multiple images. In this image, I have used portions from 4 other images. For example, the snowy mountain, the fall tree, spring flowers. This image is my idea of utopia, where there are perfectly timed seasons and there is always smooth transition between the two.</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Modal for #work2 -->
+		<div class="modal fade" id="work2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 id="myModalLabel2">My Website</h4>
+					</div>
+					<div class="modal-body">
+						<img src="images/website-screenshot.png" alt="website screenshot" class="img-responsive center-block">
+						<br>
+						<p>This is a static website I developed using Adobe Dreamweaver. The website shares my travel and cooking experiences. Most of the images on the website are taken by me, few are used from the internet (creative commons). This is a screenshot of the landing page.</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Modal for #work3 -->
+		<div class="modal fade" id="work3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 id="myModalLabel3">My Website</h4>
+					</div>
+					<div class="modal-body">
+						<img src="images/website-screenshot2.png" alt="website 2 screenshot" class="img-responsive center-block">
+						<br>
+						<p>This is a different approach, designwise to the same website shown earlier. Here I have used a logo and new colors with the same concept and images.</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery-2.1.3.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
